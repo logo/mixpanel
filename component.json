@@ -11,7 +11,8 @@
   "images": [
     "images/logo.svg",
     "images/logo-black.svg",
-    "images/logo-white.svg"
+    "images/logo-white.svg",
+    "images/logo-monochromatic.svg"
   ],
   "dependencies": {
     "logo/logo": "*"
