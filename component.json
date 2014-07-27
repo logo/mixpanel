@@ -1,18 +1,19 @@
 {
+  "logo": "Mixpanel",
   "name": "mixpanel",
-  "version": "0.0.1",
   "repo": "logo/mixpanel",
-  "images": [
-    "images/logo-black.svg",
-    "images/logo-monochromatic.svg",
-    "images/logo-white.svg",
-    "images/logo.svg"
-  ],
+  "description": "The Mixpanel logo.",
+  "version": "0.0.2",
+  "license": "MIT",
   "styles": [
     "index.css"
   ],
-  "development": {
+  "images": [
+    "images/logo.svg",
+    "images/logo-black.svg",
+    "images/logo-white.svg"
+  ],
+  "dependencies": {
     "logo/logo": "*"
-  },
-  "license": "MIT"
+  }
 }
