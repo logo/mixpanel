@@ -1,26 +1,2 @@
-
-/**
- * Mixpanel
- */
-
-.logo[data-logo="Mixpanel"] {
-  width: 3.329404395em;
-  /* (494.89/162.02) * (1+.07+.02) - 0 */
-}
-
-.logo[data-logo="Mixpanel"] > * {
-  background-image: url(images/logo.svg);
-  margin: -.07em 0 -.02em 0;
-}
-
-.logo[data-logo="Mixpanel"].monochromatic > * {
-  background-image: url(images/logo-monochromatic.svg);
-}
-
-.logo[data-logo="Mixpanel"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Mixpanel"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
